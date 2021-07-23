@@ -2,6 +2,9 @@
     background-color:#3EDBF0;
     color: white;
 }
+html,body{
+    overflow-x: hidden;
+}
 body{
     font-family:"Montserrat";
     
