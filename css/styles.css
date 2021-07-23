@@ -56,7 +56,10 @@ p{
 font-size: 1rem;;
 font-family: "montserrat";
 }
-
+.navbar-logo{
+    width: 15%;
+    height: 15%;
+}
 /* downlaod button  */
 
 .download-btn{
@@ -163,12 +166,25 @@ img:hover {
     padding-top: 1%;
 }
 /* phone outlook  */
-@media  (max-width:1200px)
+@media  (max-width:900px)
     {
         #title{
             text-align: center;
         }
         .title-image{
-            width: 75%;
+            width: 85%;
         }
+       h1{
+           font-size: 2.5rem;
+           text-align: center;
+       }
+       .navbar-brand{
+           font-size: 20px;
+           
+       }
+        .navbar-logo{
+            width: 45px;
+            height: 45px;
+        }
+    
     }
